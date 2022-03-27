@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="HammingSpec" tests="1" skipped="0" failures="1" errors="0" timestamp="2022-03-27T13:05:34" hostname="PR2GLCQ5QNW2" time="0.456">
+  <properties/>
+  <testcase name="Empty strands" classname="HammingSpec" time="0.456">
+    <failure message="Condition failed with Exception:&#10;&#10;hamming.distance(strand1, strand2) == expected&#10;|       |        |        |&#10;|       |        &quot;&quot;       &quot;&quot;&#10;|       java.lang.UnsupportedOperationException: Method implementation is missing&#10;|       &#9;at Hamming.distance(Hamming.groovy:4)&#10;|       &#9;at HammingSpec.Empty strands(HammingSpec.groovy:10)&#10;&lt;Hamming@16f056f&gt;&#10;" type="org.spockframework.runtime.ConditionFailedWithExceptionError">Condition failed with Exception:
+
+hamming.distance(strand1, strand2) == expected
+|       |        |        |
+|       |        &quot;&quot;       &quot;&quot;
+|       java.lang.UnsupportedOperationException: Method implementation is missing
+|       	at Hamming.distance(Hamming.groovy:4)
+|       	at HammingSpec.Empty strands(HammingSpec.groovy:10)
+&lt;Hamming@16f056f&gt;
+
+	at HammingSpec.Empty strands(HammingSpec.groovy:10)
+Caused by: java.lang.UnsupportedOperationException: Method implementation is missing
+	at Hamming.distance(Hamming.groovy:4)
+	... 1 more
+</failure>
+  </testcase>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
